@@ -1,0 +1,28 @@
+.cabecalho {
+  display: flex;
+  width: 100%;
+  height: 76px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.menu ul{
+  display: flex;
+  gap: 2rem;
+}
+.menu ul a  li{
+  font-size: 2.5rem;
+  color: black;
+
+}
+.menu ul a li:hover{
+  color:white
+}

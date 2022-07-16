@@ -1,0 +1,45 @@
+.banner-sobre {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(187, 93, 93, 0.5), rgba(20, 20, 20, 1)), url(/assets/images/banner.png) center center no-repeat;
+  background-size: cover;
+  padding: 10%;
+  display: flex;
+
+  justify-content: center;
+}
+
+.banner-sobre div {
+  width: 50%;
+
+}
+
+.banner-sobre .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner-sobre .logo img {
+  border-radius: 50%;
+  width: 70%;
+}
+
+.banner-sobre .sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-sobre .sobre p {
+  text-align: justify;
+  color: white;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.banner-sobre .sobre p::first-letter {
+  font-size: 5rem;
+  color: bisque;
+}
